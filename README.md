@@ -10,13 +10,14 @@
 [![Package Quality](http://npm.packagequality.com/shield/node-red-contrib-heater-controller.svg)](http://packagequality.com/#?package=node-red-contrib-heater-controller)
 
 # node-red-contrib-heater-controller
-A dashboard ui interface node for controlling a heater;
+A dashboard ui interface node for controlling a heater and cooler;
+This is a hacked fork of SergiuToporjinschi/node-red-contrib-heater-controller to add a cooling option.
 
 ## Interface
 ![image](https://github.com/SergiuToporjinschi/node-red-contrib-heater-controller/raw/master/images/front-end.png)
  * 1 - target temperature value. The temperature desired by user;
  * 2 - current temperature
- * 3 - current status of the heater
+ * 3 - current status of the heater/cooler
  * 4 - slider for setting a custom value
  * 5 - current temperature from calendar
  * 6 - next temperature from calendar and the starting hour
